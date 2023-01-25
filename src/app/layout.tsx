@@ -1,5 +1,6 @@
-import "@/style/globals.css";
-import type { NextPage } from "next";
+import '@/style/global.css';
+
+import type { NextPage } from 'next';
 
 type RootLayoutProps = {
   children: React.ReactNode;
@@ -7,7 +8,7 @@ type RootLayoutProps = {
 
 const RootLayout: NextPage<RootLayoutProps> = ({ children }) => {
   return (
-    <html lang="ja">
+    <html lang='ja'>
       <head />
       <body>{children}</body>
     </html>
