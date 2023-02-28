@@ -1,6 +1,17 @@
 import '@/style/global.css';
 
-import type { NextPage } from 'next';
+import type { Metadata, NextPage } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    default: 'Next x Mantine Sterter',
+    template: '%s | Next x Mantine Sterter',
+  },
+  description: 'Next.js13 x Mantine テンプレート',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 type RootLayoutProps = {
   children: React.ReactNode;
